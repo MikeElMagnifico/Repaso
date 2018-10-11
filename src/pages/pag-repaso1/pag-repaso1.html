@@ -1,0 +1,24 @@
+<!--
+  Generated template for the PagRepaso1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PagRepaso1</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+        <ion-label>Imagen</ion-label>
+        <ion-toggle [(ngModel)]= "Imagen" checked="false"></ion-toggle>
+    </ion-item>
+
+  <img *ngIf="Imagen" src = "../assets/Samsung S9.jpg">
+
+</ion-content>
